@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Stopwatch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="top-bar">
+        <h1>⏱ Stopwatch</h1>
+        <button id="themeBtn">🌙</button>
+    </div>
+
+    <div id="dateTime"></div>
+
+    <div id="display">00:00:00</div>
+
+    <div class="buttons">
+        <button id="start">▶ Start</button>
+<button id="pause">⏸ Pause</button>
+<button id="reset">↺ Reset</button>
+<button id="lap">⚡ Lap</button>
+    </div>
+
+    <h3>Lap Times</h3>
+    <ul id="laps"></ul>
+
+    <div class="info">
+        <p>S = Start | P = Pause | R = Reset | L = Lap</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
